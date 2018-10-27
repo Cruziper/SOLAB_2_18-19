@@ -34,6 +34,7 @@ CircuitRouter-SeqSolver.o: CircuitRouter-SeqSolver.c maze.h router.h ../lib/list
 ../CircuitRouter-ParSolver/CircuitRouter-ParSolver.o: ../CircuitRouter-ParSolver/CircuitRouter-ParSolver.c
 maze.o: maze.c maze.h coordinate.h grid.h ../lib/list.h ../lib/queue.h ../lib/pair.h ../lib/types.h ../lib/vector.h
 grid.o: grid.c grid.h coordinate.h ../lib/types.h ../lib/vector.h
+router.o: router.c router.h coordinate.h grid.h ../lib/vector.h ../lib/queue.h
 coordinate.o: coordinate.c coordinate.h ../lib/pair.h ../lib/types.h
 ../lib/vector.o: ../lib/vector.c ../lib/vector.h ../lib/types.h ../lib/utility.h
 ../lib/queue.o: ../lib/queue.c ../lib/queue.h ../lib/types.h
